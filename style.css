@@ -1,0 +1,100 @@
+
+.wallpaper {
+    position: fixed;
+    background: url(./wallpaper.jpg);
+    opacity: 0.5;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#searchInput {
+    height: 24px;
+    width: 40%;
+    min-width: 120px;
+}
+
+#toDoList {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#addItemButton {
+    color: rgb(255, 255, 255);
+    font-size: bold;
+    background-color: blueviolet;
+    border-radius: 15%;
+}
+
+
+.box-item {
+    border: 2px solid black;
+    width: 70%;
+    min-width: 225px;
+    min-height: 100px;
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(201 179 239);
+}
+
+.box-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.box-description {
+    color:#5c5c5c
+}
+
+.text-container {
+    flex-grow: 1;
+}
+
+.date-container {
+   width: 27%;
+   min-width: 85px;
+   max-width: 175px;
+}
+
+.box-due-date {
+    font-weight: bold;
+}
+
+#title {
+    justify-content: center;
+    display: flex;
+}
+
+/* The Close & Edit Buttons */
+.close, .edit {
+    color: rgb(38, 0, 56);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .edit:hover,
+  .close:focus, .edit:focus {
+    color: rgb(193, 101, 230);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
